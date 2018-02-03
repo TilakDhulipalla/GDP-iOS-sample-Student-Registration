@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D1D468556B59F649132A137 /* Pods_Student_Registration_GDP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97E8969C9C20811CB9A66ADF /* Pods_Student_Registration_GDP.framework */; };
+		A0A92395201F9639004E12DD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A92394201F9639004E12DD /* MainViewController.swift */; };
+		DE564745201A3E7B00CC2DD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE564744201A3E7B00CC2DD1 /* AppDelegate.swift */; };
+		DE56474A201A3E7B00CC2DD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE564748201A3E7B00CC2DD1 /* Main.storyboard */; };
+		DE56474C201A3E7B00CC2DD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE56474B201A3E7B00CC2DD1 /* Assets.xcassets */; };
+		DE56474F201A3E7B00CC2DD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE56474D201A3E7B00CC2DD1 /* LaunchScreen.storyboard */; };
+		DE564757201A505600CC2DD1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE564756201A505600CC2DD1 /* GoogleService-Info.plist */; };
+		DE564759201A564800CC2DD1 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE564758201A564800CC2DD1 /* SignUpViewController.swift */; };
+		DE56475B201A565A00CC2DD1 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE56475A201A565A00CC2DD1 /* LogInViewController.swift */; };
+		DE56475D201A567000CC2DD1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE56475C201A567000CC2DD1 /* HomeViewController.swift */; };
+		DE56475F201A568200CC2DD1 /* StudentsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE56475E201A568200CC2DD1 /* StudentsTableViewController.swift */; };
+		DE9AA276201EBD500079A74E /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9AA275201EBD500079A74E /* Student.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		24D05A3F40609C819F649DCC /* Pods-Student Registration GDP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Student Registration GDP.release.xcconfig"; path = "Pods/Target Support Files/Pods-Student Registration GDP/Pods-Student Registration GDP.release.xcconfig"; sourceTree = "<group>"; };
+		3FA66C1C5FA111D0C52D91E4 /* Pods-Student Registration GDP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Student Registration GDP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Student Registration GDP/Pods-Student Registration GDP.debug.xcconfig"; sourceTree = "<group>"; };
+		97E8969C9C20811CB9A66ADF /* Pods_Student_Registration_GDP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Student_Registration_GDP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0A92394201F9639004E12DD /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		DE564741201A3E7B00CC2DD1 /* Student Registration GDP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Student Registration GDP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE564744201A3E7B00CC2DD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE564749201A3E7B00CC2DD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE56474B201A3E7B00CC2DD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE56474E201A3E7B00CC2DD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE564750201A3E7B00CC2DD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE564756201A505600CC2DD1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DE564758201A564800CC2DD1 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		DE56475A201A565A00CC2DD1 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		DE56475C201A567000CC2DD1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		DE56475E201A568200CC2DD1 /* StudentsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsTableViewController.swift; sourceTree = "<group>"; };
+		DE9AA275201EBD500079A74E /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE56473E201A3E7B00CC2DD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D1D468556B59F649132A137 /* Pods_Student_Registration_GDP.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F10400C03CF8459278D6BB4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3FA66C1C5FA111D0C52D91E4 /* Pods-Student Registration GDP.debug.xcconfig */,
+				24D05A3F40609C819F649DCC /* Pods-Student Registration GDP.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		94BC22A8AC5A392C8A8B1BE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				97E8969C9C20811CB9A66ADF /* Pods_Student_Registration_GDP.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE564738201A3E7A00CC2DD1 = {
+			isa = PBXGroup;
+			children = (
+				DE564743201A3E7B00CC2DD1 /* Student Registration GDP */,
+				DE564742201A3E7B00CC2DD1 /* Products */,
+				0F10400C03CF8459278D6BB4 /* Pods */,
+				94BC22A8AC5A392C8A8B1BE9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DE564742201A3E7B00CC2DD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE564741201A3E7B00CC2DD1 /* Student Registration GDP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE564743201A3E7B00CC2DD1 /* Student Registration GDP */ = {
+			isa = PBXGroup;
+			children = (
+				DE564744201A3E7B00CC2DD1 /* AppDelegate.swift */,
+				DE564748201A3E7B00CC2DD1 /* Main.storyboard */,
+				DE56474B201A3E7B00CC2DD1 /* Assets.xcassets */,
+				DE56474D201A3E7B00CC2DD1 /* LaunchScreen.storyboard */,
+				DE564750201A3E7B00CC2DD1 /* Info.plist */,
+				DE564756201A505600CC2DD1 /* GoogleService-Info.plist */,
+				DE564758201A564800CC2DD1 /* SignUpViewController.swift */,
+				DE56475A201A565A00CC2DD1 /* LogInViewController.swift */,
+				DE56475C201A567000CC2DD1 /* HomeViewController.swift */,
+				DE56475E201A568200CC2DD1 /* StudentsTableViewController.swift */,
+				DE9AA275201EBD500079A74E /* Student.swift */,
+				A0A92394201F9639004E12DD /* MainViewController.swift */,
+			);
+			path = "Student Registration GDP";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE564740201A3E7B00CC2DD1 /* Student Registration GDP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE564753201A3E7B00CC2DD1 /* Build configuration list for PBXNativeTarget "Student Registration GDP" */;
+			buildPhases = (
+				A9D0924324B60D2C3561E43F /* [CP] Check Pods Manifest.lock */,
+				DE56473D201A3E7B00CC2DD1 /* Sources */,
+				DE56473E201A3E7B00CC2DD1 /* Frameworks */,
+				DE56473F201A3E7B00CC2DD1 /* Resources */,
+				3DF81060A280AA2DA2323218 /* [CP] Embed Pods Frameworks */,
+				FA088C8D9134530D1B74FAEF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Student Registration GDP";
+			productName = "Student Registration GDP";
+			productReference = DE564741201A3E7B00CC2DD1 /* Student Registration GDP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE564739201A3E7B00CC2DD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Reddygari,Amarendar Reddy";
+				TargetAttributes = {
+					DE564740201A3E7B00CC2DD1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DE56473C201A3E7B00CC2DD1 /* Build configuration list for PBXProject "Student Registration GDP" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE564738201A3E7A00CC2DD1;
+			productRefGroup = DE564742201A3E7B00CC2DD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE564740201A3E7B00CC2DD1 /* Student Registration GDP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE56473F201A3E7B00CC2DD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE56474F201A3E7B00CC2DD1 /* LaunchScreen.storyboard in Resources */,
+				DE564757201A505600CC2DD1 /* GoogleService-Info.plist in Resources */,
+				DE56474C201A3E7B00CC2DD1 /* Assets.xcassets in Resources */,
+				DE56474A201A3E7B00CC2DD1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3DF81060A280AA2DA2323218 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Student Registration GDP/Pods-Student Registration GDP-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Student Registration GDP/Pods-Student Registration GDP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9D0924324B60D2C3561E43F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Student Registration GDP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA088C8D9134530D1B74FAEF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Student Registration GDP/Pods-Student Registration GDP-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE56473D201A3E7B00CC2DD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0A92395201F9639004E12DD /* MainViewController.swift in Sources */,
+				DE564759201A564800CC2DD1 /* SignUpViewController.swift in Sources */,
+				DE9AA276201EBD500079A74E /* Student.swift in Sources */,
+				DE564745201A3E7B00CC2DD1 /* AppDelegate.swift in Sources */,
+				DE56475B201A565A00CC2DD1 /* LogInViewController.swift in Sources */,
+				DE56475F201A568200CC2DD1 /* StudentsTableViewController.swift in Sources */,
+				DE56475D201A567000CC2DD1 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DE564748201A3E7B00CC2DD1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE564749201A3E7B00CC2DD1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE56474D201A3E7B00CC2DD1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE56474E201A3E7B00CC2DD1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE564751201A3E7B00CC2DD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE564752201A3E7B00CC2DD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE564754201A3E7B00CC2DD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FA66C1C5FA111D0C52D91E4 /* Pods-Student Registration GDP.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Student Registration GDP/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Student-Registration-GDP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE564755201A3E7B00CC2DD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24D05A3F40609C819F649DCC /* Pods-Student Registration GDP.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Student Registration GDP/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Student-Registration-GDP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE56473C201A3E7B00CC2DD1 /* Build configuration list for PBXProject "Student Registration GDP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE564751201A3E7B00CC2DD1 /* Debug */,
+				DE564752201A3E7B00CC2DD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE564753201A3E7B00CC2DD1 /* Build configuration list for PBXNativeTarget "Student Registration GDP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE564754201A3E7B00CC2DD1 /* Debug */,
+				DE564755201A3E7B00CC2DD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE564739201A3E7B00CC2DD1 /* Project object */;
+}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>238660526223-3uhlf9k586earmjp8lk3i8rqvm31857m.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.238660526223-3uhlf9k586earmjp8lk3i8rqvm31857m</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAYoDPvQeNE9c1cyoAZO6su1wOsFomBTCw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>238660526223</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>nwmsu.Student-Registration-GDP</string>
+	<key>PROJECT_ID</key>
+	<string>student-registration-a89f5</string>
+	<key>STORAGE_BUCKET</key>
+	<string>student-registration-a89f5.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:238660526223:ios:7156449e58209a2e</string>
+	<key>DATABASE_URL</key>
+	<string>https://student-registration-a89f5.firebaseio.com</string>
+</dict>
+</plist>

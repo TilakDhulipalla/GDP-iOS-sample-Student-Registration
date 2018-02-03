@@ -1,0 +1,6 @@
+framework module Pods_Student_Registration_GDP {
+  umbrella header "Pods-Student Registration GDP-umbrella.h"
+
+  export *
+  module * { export * }
+}
