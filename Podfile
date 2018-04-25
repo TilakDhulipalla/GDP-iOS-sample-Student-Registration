@@ -6,5 +6,10 @@ target 'Student Registration GDP' do
   use_frameworks!
 
   # Pods for Student Registration GDP
+
+
+pod ‘Firebase/Core’
+pod ‘Firebase/Storage’
 pod ‘Firebase/Database’
+pod ‘ImagePicker’
 end

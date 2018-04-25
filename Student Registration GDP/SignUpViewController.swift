@@ -26,7 +26,14 @@ class SignUpViewController: UIViewController {
                        "password" : passwordTF.text]
         let newRegistration = ["/RegisteredStudents/\(userNameTF.text!)": newStudent]
         ref.updateChildValues(newRegistration)
-    }
+        userNameTF.text = ""
+        firstNameTF.text = ""
+        lastNameTF.text = ""
+        emailTF.text = ""
+        passwordTF.text = ""
+        let alertController = UIAlertController(title: "Message", message: "Successfully SignedIn, you can now logIn", preferredStyle: .alert)
+        alertController.addAction(UIAlertAction(title: "Dismiss", style: UIAlertActionStyle.default,handler: nil))
+        self.present(alertController, animated: true, completion: nil)    }
     
     
     override func viewDidLoad() {
